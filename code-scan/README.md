@@ -7,8 +7,6 @@ Para melhoria da segurança e uma postura robusta, é considerado boa prática v
 ./cortexcli --api-base-url <URL> --api-key <KEY> --api-key-id <ID> code scan -h
 Update available: CortexCLI 0.17.0 → 0.18.0
 
-To upgrade, check the platform UI or run the following command:
-crtx_resp=$(curl --fail "https://api-ciandt.xdr.us.paloaltonetworks.com/public_api/v1/unified-cli/releases/download-link?os=linux&architecture=amd64" -H "x-xdr-auth-id: 133" -H "Authorization: ${CORTEX_API_KEY}") && crtx_url=$(echo $crtx_resp | jq -r ".signed_url") && crtx_file=$(echo $crtx_resp | jq -r ".file_name") && curl -o $crtx_file $crtx_url
 NAME:
    Cortex CLI code scan - Scans a code repository
 
