@@ -40,3 +40,7 @@ OPTIONS:
    --help, -h                          show help
 
 ```
+
+### Comando Rico de Opções
+Como vimos acima, o sub-comando do ```cortex-cli``` tem várias opções para uso, podendo rodar um scan completo no diretório da base de código e em outros detalhes, como em arquivos, branches, validação de secrets.
+
